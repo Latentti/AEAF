@@ -45,4 +45,4 @@ See `NOTICE` for trademark and attribution details.
 
 ---
 
-*AEAF is a [Latentti](https://github.com/Latentti) framework.*
+*AEAF is created and maintained by [Latentti](https://github.com/Latentti).*

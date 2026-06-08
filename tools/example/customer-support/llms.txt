@@ -1,0 +1,47 @@
+# Worked example — Parkki Nordic Oy agentic support line
+
+> A fully-filled, machine-validated AEAF artifact set for a fictional agentic customer-support line. The target-state (AEAF-governed) version; compared against the just-do-it version in ../the-drift/. Start with walkthrough.md.
+
+## Orientation
+- [Case context](00-case-context.md): the company, the decision, the agent fleet, what stays human.
+- [Walkthrough](walkthrough.md): the AEAF Method run phase by phase (the why).
+- [README](README.md): how to read it; how to validate it.
+
+## New AEAF artifacts (filled)
+- [Agent Catalog](artifacts/new/agent-catalog.md): AG-001…005 — the hub.
+- [Model Portfolio](artifacts/new/model-portfolio.md): M-001…003.
+- [Knowledge-Corpus Catalog](artifacts/new/knowledge-corpus-catalog.md): KC-001…004.
+- [Guardrail/Policy Catalog](artifacts/new/guardrail-policy-catalog.md): G-1…G-8.
+- [Human-Agent RACI](artifacts/new/human-agent-raci.md).
+- [Autonomy-Level Classification](artifacts/new/autonomy-level-classification.md): scale + assignment.
+- [Eval-Suite Specification](artifacts/new/eval-suite-specification.md): EV-001…005.
+- [Trust & Accountability Matrix](artifacts/new/trust-accountability-matrix.md): live view.
+- [Capability Automation-Frontier Map](artifacts/new/capability-automation-frontier-map.md).
+
+## Classical artifacts (changed)
+- [Principles Catalog](artifacts/classical/principles-catalog.md): P-1…P-7.
+- [Business Capability Catalog](artifacts/classical/business-capability-catalog.md): CAP-001…008.
+- [Organization / Actor Catalog](artifacts/classical/organization-actor-catalog.md).
+- [Role Catalog](artifacts/classical/role-catalog.md).
+- [Actor/Role Matrix](artifacts/classical/actor-role-matrix.md).
+- [Application Portfolio Catalog](artifacts/classical/application-portfolio-catalog.md).
+- [Data Entity Catalog](artifacts/classical/data-entity-catalog.md).
+- [Technology Portfolio Catalog](artifacts/classical/technology-portfolio-catalog.md).
+- [Requirements & Intent Catalog](artifacts/classical/requirements-intent-catalog.md): INT-001…005.
+- [Process / Function Catalog](artifacts/classical/process-function-catalog.md).
+
+## Deliverables (packaged board documents, assembled from the artifacts)
+- [Architecture Vision](deliverables/architecture-vision.md): Phase 1 — ambition, risk envelope, target frontier.
+- [Architecture Definition Document](deliverables/architecture-definition-document.md): the headline BDAT+I composition (renders to PDF).
+- [Architecture Roadmap & Migration Plan](deliverables/architecture-roadmap-migration-plan.md): frontier moves sequenced by trust.
+- (Architecture Contract `CON-001` and Assurance Case `AC-001` in decisions/ are deliverables too.)
+
+## Supporting views & compliance
+- [Regulatory Obligations Register](artifacts/supporting/regulatory-obligations-register.md): GDPR / EU AI Act / ePrivacy / PSD2 / EAA obligations mapped to principles, guardrails, and evidence (OBL-001…012). A supporting view, not a core artifact.
+
+## Decisions & gate
+- [ADR-001](decisions/agentic-adr.md): Gate-Ops goes live at L2, not L3.
+- [ADR-002](decisions/ai-act-classification.md): EU AI Act risk classification (limited-risk, counsel-confirmed).
+- [Architecture Contract CON-001](decisions/architecture-contract.md): Gate-Ops.
+- [Assurance Case AC-001](decisions/assurance-case.md): Gate-Ops.
+- [Design-Time Gate](checklists/design-time-gate.md): filled for AG-002.

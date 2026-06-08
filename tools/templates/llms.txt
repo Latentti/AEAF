@@ -1,0 +1,57 @@
+# AEAF Templates
+
+> The fill-in form of the Agentic Enterprise Architecture Framework (AEAF), the agentic-age successor to TOGAF. Every artifact is one Markdown file with YAML frontmatter, maintainable by an agent and a human alike. The definition of each artifact is the AEAF books: Book 1 §21 (catalog), Book 2 §15 (worked examples). Read `conventions.md` before filling anything.
+
+## Start here
+
+- [Processing model](00-processing-model.md): the format decision (Markdown + frontmatter) and why it answers the "TOGAF is too heavy" critique.
+- [Conventions](conventions.md): frontmatter schema, ID prefixes, status lifecycle, diagram/colour/lexicon rules, the tailoring rule. Binding.
+- [README](README.md): human orientation and folder map.
+- [CLAUDE.md](CLAUDE.md): agent instructions for filling and maintaining artifacts.
+
+## New AEAF artifacts (the agentic core — 9)
+
+- [Agent Catalog](artifacts/new/agent-catalog.md): every agent actor — purpose, model, corpora, tools, guardrails, autonomy, eval, accountability owner. The hub of the set. Phase 6.
+- [Model Portfolio](artifacts/new/model-portfolio.md): models in use — cost, risk, agents powered, TIME lifecycle stance. Phases 5 & 6.
+- [Knowledge-Corpus Catalog](artifacts/new/knowledge-corpus-catalog.md): governed content an agent retrieves from — sources, freshness, classification, access. Phase 3.
+- [Guardrail/Policy Catalog](artifacts/new/guardrail-policy-catalog.md): machine-enforceable constraints — principle → guardrail → enforcement point. Phase 6.
+- [Human-Agent RACI](artifacts/new/human-agent-raci.md): responsibility/accountability split + decision-authority bands per capability. Phase 2.
+- [Autonomy-Level Classification](artifacts/new/autonomy-level-classification.md): the canonical L0–L4 scale + per-capability assignment. Preliminary (scale) + Phases 2 & 6 (assignment).
+- [Eval-Suite Specification](artifacts/new/eval-suite-specification.md): eval dimensions, thresholds, cadence, gates. Phase 6.
+- [Trust & Accountability Matrix](artifacts/new/trust-accountability-matrix.md): the live standing view — owner, oversight, autonomy, assurance now. Phases 2 & 9, refreshed at runtime.
+- [Capability Automation-Frontier Map](artifacts/new/capability-automation-frontier-map.md): derived view of the human/agent boundary and its trajectory. Phase 2.
+
+## Classical artifacts that change (10)
+
+- [Organization / Actor Catalog](artifacts/classical/organization-actor-catalog.md): now lists agent actors and hybrid teams; gains actor-type.
+- [Role Catalog](artifacts/classical/role-catalog.md): gains permitted-performer-type.
+- [Actor/Role Matrix](artifacts/classical/actor-role-matrix.md): cells may record an agent holding a role at an autonomy level.
+- [Business Capability Catalog](artifacts/classical/business-capability-catalog.md): each capability gains performer mix + autonomy level.
+- [Process / Function Catalog](artifacts/classical/process-function-catalog.md): a step gains actor-type, oversight mode, escalation.
+- [Application Portfolio Catalog](artifacts/classical/application-portfolio-catalog.md): an app hosting an agent runtime links to the Agent Catalog.
+- [Data Entity Catalog](artifacts/classical/data-entity-catalog.md): an entity curated into a corpus links to the Knowledge-Corpus Catalog.
+- [Technology Portfolio Catalog](artifacts/classical/technology-portfolio-catalog.md): now includes inference platforms, model gateways, vector stores, agent runtimes.
+- [Principles Catalog](artifacts/classical/principles-catalog.md): every principle gains an Enforcement attribute (advisory / design-time / runtime).
+- [Requirements & Intent Catalog](artifacts/classical/requirements-intent-catalog.md): requirements supplemented by Intent records for non-deterministic work.
+
+## Supporting views (not core artifacts)
+
+- [Regulatory Obligations Register](artifacts/supporting/regulatory-obligations-register.md): maps an external obligation (GDPR, EU AI Act, ePrivacy, sector rules) onto the principles/guardrails/controls that realise it. A supporting view like the Technology Radar — not a tenth core artifact.
+
+## Deliverables (packaged work products that assemble artifacts)
+
+- [Statement of Architecture Work](deliverables/statement-of-architecture-work.md): scopes and authorises the engagement.
+- [Architecture Vision](deliverables/architecture-vision.md): human–agent ambition + risk envelope + target frontier (Phase 1).
+- [Architecture Definition Document](deliverables/architecture-definition-document.md): assembles the full BDAT+I architecture (the headline board document).
+- [Requirements & Intent Specification](deliverables/requirements-intent-specification.md): deterministic requirements + intent records bound to acceptance evidence.
+- [Architecture Roadmap & Migration Plan](deliverables/architecture-roadmap-migration-plan.md): frontier moves sequenced by trust earned (Phases 7–8).
+- (Agentic Architecture Contract and Assurance Case are deliverables too — see `decisions/`.)
+
+## Phase worksheets (Preliminary → 10)
+
+- [Preliminary](phases/00-preliminary.md) · [1 Vision](phases/01-vision.md) · [2 Business & Capability](phases/02-business-capability.md) · [3 Data & Knowledge](phases/03-data-knowledge.md) · [4 Application](phases/04-application.md) · [5 Technology](phases/05-technology.md) · [6 Intelligence & Agency](phases/06-intelligence-agency.md) · [7 Opportunities & Solutions](phases/07-opportunities-solutions.md) · [8 Migration Planning](phases/08-migration-planning.md) · [9 Implementation Governance](phases/09-implementation-governance.md) · [10 Change & Runtime Assurance](phases/10-change-runtime-assurance.md)
+
+## Decisions & gates
+
+- [Agentic ADR](decisions/agentic-adr.md) · [Architecture Contract](decisions/architecture-contract.md) · [Assurance Case](decisions/assurance-case.md)
+- [AEAF Method checklist](checklists/aeaf-method-checklist.md) · [Agentic architecture review](checklists/agentic-architecture-review.md) · [Design-time gate](checklists/design-time-gate.md) · [Re-gating trigger](checklists/re-gating-trigger.md)

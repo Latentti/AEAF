@@ -1,0 +1,17 @@
+# AEAF Skills
+
+> The tools that make AEAF light enough to execute. Six act-based skills + two end-to-end workflows, each a SKILL.md driving the templates in tools/templates/. Read tools/templates/conventions.md and the relevant book chapters before running one.
+
+## Act-based skills
+
+- [aeaf-author](aeaf-author/SKILL.md): fill or update any AEAF artifact from its template; keeps frontmatter, IDs, and cross-references correct.
+- [aeaf-allocate](aeaf-allocate/SKILL.md): capability-allocation + automation-frontier workshop (Phase 2) — who performs each capability, at what autonomy, under what oversight, accountable to whom.
+- [aeaf-guardrails](aeaf-guardrails/SKILL.md): compile principles into runtime guardrails and build the Guardrail/Policy Catalog (Phase 6).
+- [aeaf-evals](aeaf-evals/SKILL.md): build the Eval-Suite Specification — five dimensions, thresholds fixed before the run, held-out golden set (Phase 6).
+- [aeaf-govern](aeaf-govern/SKILL.md): pre-gate review, design-time gate, architecture contract, runtime assurance loop, re-gating, and read-only audit (Phases 9–10).
+- [aeaf-maturity](aeaf-maturity/SKILL.md): assess blended-workforce maturity and recommend the minimum viable adoption / entry point (Book 2 §5–§6).
+
+## Workflow skills
+
+- [aeaf-retrofit](aeaf-retrofit/SKILL.md): brownfield — lift an already-implemented agentic service to AEAF level (scan → reverse-map → gap-analyse → target-state + migration backlog).
+- [aeaf-greenfield](aeaf-greenfield/SKILL.md): greenfield — design a new agentic service from Vision through the design-time gate.

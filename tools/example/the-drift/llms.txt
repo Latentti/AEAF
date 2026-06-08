@@ -1,0 +1,6 @@
+# The Drift — just-do-it vs AEAF-governed
+
+> The comparison between the just-do-it PoC and the AEAF-governed service (../customer-support/). Same demo, different thing. A pre-rendered `the-drift.pdf` is included in this folder.
+
+- [The Drift](the-drift.md): the comparison document — two architectures, the PoC reverse-mapped into AEAF, coverage chart, the collapse dynamic, the EU-legal axis, the thesis.
+- [Gap Register](gap-register.md): 20 gaps (GAP-01…20) with production risk, the AEAF artifact/gate that closes each, and severity (legal / operational / quality).

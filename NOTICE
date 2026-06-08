@@ -1,0 +1,21 @@
+AEAF — Agentic Enterprise Architecture Framework
+Copyright (c) 2026 Latentti
+
+This repository is dual-licensed:
+  - The books (books/) are licensed under CC BY-NC-ND 4.0 (see LICENSE-books).
+  - The tools (tools/) are licensed under the Apache License 2.0
+    (see LICENSE-tools).
+
+TRADEMARKS
+  TOGAF(R) is a registered trademark of The Open Group. AEAF is an independent
+  and original framework. It is neither derived from, a profile of, nor
+  endorsed by or affiliated with The Open Group. Any comparison to TOGAF in
+  this work is offered as a migration aid for existing enterprise-architecture
+  practices, not as a claim of lineage, certification, or endorsement.
+
+  No third party's copyrighted templates are included in this repository.
+
+ATTRIBUTION
+  When using or adapting the tools under Apache-2.0, retain this NOTICE and the
+  LICENSE-tools file. When sharing the books under CC BY-NC-ND 4.0, attribute
+  to "AEAF / Latentti" and link to this repository.

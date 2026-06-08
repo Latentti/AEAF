@@ -1,0 +1,43 @@
+---
+artifact: architecture-vision
+title: "Architecture Vision — Parkki Nordic agentic support line"
+subtitle: "Phase 1 deliverable"
+type: deliverable
+phase: 1
+domain: [B, I]
+status: approved
+owner: "Head of Customer Support (Antti Salo)"
+version: 1.0
+links: [requirements-intent-catalog, principles-catalog, capability-automation-frontier-map]
+---
+
+# Architecture Vision — Parkki Nordic agentic support line
+
+**Deliverable (Phase 1).** Secures agreement on where the support line is going and how far autonomy may go. Assembled from the intent records, the principles, and the target frontier; signed by the architecture board.
+
+## Problem & drivers
+Support volume tripled as the garage estate grew. The aim is to resolve routine, reversible contacts (stuck at a paid gate, "why was I charged", a camera misread) in minutes, while keeping sensitive, contested, and irreversible work with people. The board's condition: this runs real money and a physical gate, so it must be **governable**, not a demo.
+
+## Stakeholders & concerns
+Drivers stuck at exit; the human support team (whose work changes); the Billing and Data functions; the DPO (personal/payment data); the board (risk and lawfulness). The people whose roles change are in scope of the Vision, not an afterthought.
+
+## Human–agent ambition (+I)
+A five-agent blended workforce — Triage, Gate-Ops, Billing-Dispute, ANPR-Correction, Escalation-Router — in front of the human team. Agents resolve the routine; humans own the sensitive and the irreversible.
+
+## Consequence / risk envelope (+I)
+The board caps the support line at **autonomy L3** (no out-of-the-loop action — every case touches money or a gate). Three classes of work are **fixed human**: safety/emergency, account/GDPR, and large or contested money. These are decisions, not gaps.
+
+## Target value
+Routine contacts resolved in under ~90 seconds; the human team freed for the cases that need judgment; quality, safety, and continuity provable to the board and a regulator.
+
+## Headline intent
+The five agent intents `INT-001…INT-005` (→ `requirements-intent-catalog`) — each an outcome + bounds, assured by an eval suite, not a fully-specified script.
+
+## Guiding principles
+Principles `P-1…P-10` (→ `principles-catalog`) — five runtime-enforced (PII boundary, safety-to-human, verified-facts-only, bounded money, paid-session-for-gate), plus the GDPR/AI Act/ePrivacy principles. Each runtime principle compiles to a guardrail.
+
+## Target frontier
+The intended human/agent boundary and its trajectory (→ `capability-automation-frontier-map`): agents on triage/explain/gate/ANPR with a path to widen on evidence; humans fixed on safety, account/GDPR, and large/contested money.
+
+## Sign-off
+Architecture board (chair: Head of Customer Support), 2026-02-20. Proceed to Phase 2.

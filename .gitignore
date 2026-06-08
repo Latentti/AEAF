@@ -1,0 +1,22 @@
+# Book source — published as PDFs in books/ only (CC BY-NC-ND)
+00-foundations/
+book1-framework/
+book2-practice/
+build/
+
+# Book rendering pipeline (book-branded CSS + book build script) — kept private
+theme/
+
+# Python / tooling
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

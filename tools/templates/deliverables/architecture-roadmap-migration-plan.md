@@ -14,6 +14,8 @@ links: [capability-automation-frontier-map, autonomy-level-classification, trust
 
 **Deliverable.** The Phase 7–8 document that sequences how the target architecture is reached. In AEAF the sequencing rule is **trust earned**: agents pilot under tight oversight first; autonomy widens only as assurance accrues. Each step is a **frontier move** with a trigger and an assurance precondition.
 
+> **Phase boundary.** This deliverable carries the *sequencing* of moves already decided upstream — it assembles the allocation (Phase 2) and the autonomy assignment (Phases 2 & 6); it does not originate them. Realized metrics belong to Phase 4–5 and operation, not here.
+
 ## Sections
 
 | Section | What to record / assemble |

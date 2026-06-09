@@ -14,6 +14,8 @@ links: [requirements-intent-catalog, principles-catalog, capability-automation-f
 
 **Deliverable.** The Phase 1 document that secures agreement on *where we are going and how far autonomy may go*. It assembles the vision-level artifacts and adds the agentic-era content TOGAF's vision has no slot for: the **human–agent ambition** and the **consequence/risk envelope**.
 
+> **Phase-discipline guardrail (binding).** The Vision states the *ambition*, the *risk envelope* (an autonomy **cap** is fine — it is a ceiling, not an assignment), and the governing *decision rule*. It must **NOT** present conclusions that later phases produce: do **not** state the capability **allocation count** or name the specific **agent fleet with per-agent autonomy levels** (those are Phase 2 allocation / Phase 6 design), and do **not** quote **accuracy / latency / cost** or any other realized **metric** (those are Phase 4–5 technology and Phase 10 operational outcomes). State the rule and hand off; the count and the numbers come from the work, not from the Vision. A deterministic *requirement* may still carry a pass/fail acceptance *target*, because that is a forward-looking spec, not a measured result.
+
 ## Sections
 
 | Section | What to record / assemble |

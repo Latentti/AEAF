@@ -1,0 +1,28 @@
+# Worked example — Aava Software Oy AI automation portfolio
+
+> The second AEAF example: deciding WHERE AI belongs on the determinism spectrum (whether to use an LLM at all), not how to govern an agent. Vision-weighted. Two of six capabilities become agents; four are rules + humans. Start with walkthrough.md.
+
+## Orientation
+- [Case context](00-case-context.md): the company, the mandate, the trap, the portfolio.
+- [Walkthrough](walkthrough.md): the method run, vision-first (Phase 1 → 2 → 4 → 9).
+- [README](README.md): how to read it; how to validate it.
+
+## The centerpiece + signature artifact
+- [Architecture Vision](deliverables/architecture-vision.md): determinism-fit + explainability as the governing principles (renders to PDF).
+- [Determinism-Fit Map](artifacts/supporting/determinism-fit-map.md): the six capabilities placed on the spectrum (DFM-001…006).
+
+## Classical artifacts
+- [Principles Catalog](artifacts/classical/principles-catalog.md): P-1 determinism-fit, P-2 explainability, P-3…P-6.
+- [Business Capability Catalog](artifacts/classical/business-capability-catalog.md): CAP-001…006 with determinism placement.
+- [Requirements & Intent Catalog](artifacts/classical/requirements-intent-catalog.md): REQ-001…003 (rules, tested) vs INT-001…002 (LLM, evaluated).
+
+## New artifacts (light — agents only where probabilistic)
+- [Agent Catalog](artifacts/new/agent-catalog.md): AG-001 KB-Draft, AG-002 Churn-Flag — two of six capabilities.
+- [Model Portfolio](artifacts/new/model-portfolio.md): M-001, M-002 (rules run no model).
+- [Guardrail/Policy Catalog](artifacts/new/guardrail-policy-catalog.md): G-1 PII, G-2 cite-source (explainability), G-3 suggest-only.
+- [Eval-Suite Specification](artifacts/new/eval-suite-specification.md): EV-001, EV-002 (agents evaluated; rules tested).
+- [Autonomy-Level Classification](artifacts/new/autonomy-level-classification.md): agents only; rules carry no autonomy.
+- [Human-Agent RACI](artifacts/new/human-agent-raci.md): performer = rules / agent / human; A always a human.
+
+## The inverse-drift comparison
+- [The Default Trap](the-default-trap.md): LLM-by-default vs AEAF determinism-fit allocation (renders to PDF).

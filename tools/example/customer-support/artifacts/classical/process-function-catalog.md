@@ -24,4 +24,4 @@ The call flow as process steps, each with its actor-type and — for agent steps
 | `PRC-006` | Billing · explain charge / stage refund | `CAP-003`, `CAP-007` | agent | on/in-the-loop | billing operator (`G-2`) | escalate with context |
 | `PRC-007` | Any · escalate & schedule callback | `CAP-008` | agent | on-the-loop | named human queue | schedule callback, preserve context |
 
-*Every agent-touched step has a defined behaviour when the model fails or is unsure — and for the consequential step (`PRC-004`) that behaviour is **deny and escalate**, never "open on uncertainty." This is the Phase 4 non-determinism design showing up at the process level.*
+*Every agent-touched step has a defined behaviour when the model fails or is unsure — and for the consequential step (`PRC-004`) that behaviour is **deny and escalate**, never "open on uncertainty."* The catalog's home is Phase 2 (the process steps and their actor-type/oversight allocation); the **behaviour-on-failure column records the Phase 4 non-determinism design** against each step — one classical artifact carrying attributes from two phases.

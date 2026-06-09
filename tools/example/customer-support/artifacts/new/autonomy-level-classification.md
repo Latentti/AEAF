@@ -27,6 +27,8 @@ Parkki Nordic uses the canonical scale unchanged. Controls are cumulative; the b
 
 ## Part B — assignment
 
+*The scale above is set in the **Preliminary** phase; the per-capability assignment below is produced in **Phases 2 & 6** (allocation and agent design). The eval references in this part are therefore Phase-6 assurance, co-located here by design — not Preliminary outputs.*
+
 | Capability / agent | Assigned level | Effective from | Assurance that justifies it |
 |---|---|---|---|
 | Triage & route (`AG-001`, `CAP-001`) | `L3` | 2026-03 | Routing accuracy ≥ 98% + correct safety routing ≥ 99.5% (`EV-001`) |

@@ -37,6 +37,7 @@
 ## Supporting views (not core artifacts)
 
 - [Regulatory Obligations Register](artifacts/supporting/regulatory-obligations-register.md): maps an external obligation (GDPR, EU AI Act, ePrivacy, sector rules) onto the principles/guardrails/controls that realise it. A supporting view like the Technology Radar — not a tenth core artifact.
+- [Determinism-Fit Map](artifacts/supporting/determinism-fit-map.md): places each capability on the determinism spectrum (deterministic ↔ probabilistic) and records the design-time decision of which component (rules / LLM / hybrid / human) and assurance model (test / eval) fit — i.e. whether to use an LLM at all. A supporting view, not a tenth core artifact.
 
 ## Deliverables (packaged work products that assemble artifacts)
 
